@@ -728,3 +728,83 @@ Memory consumption went from 188.4 MB to 182.5 MB.
 Total: 15.584600 ms (FindLiveObjects: 1.043500 ms CreateObjectMapping: 1.568600 ms MarkObjects: 8.616400 ms  DeleteObjects: 4.354500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2217.917471 seconds.
+  path: Assets/Scripts/GerenciadorPerguntas.cs
+  importAddress: Guid(b9cdc2466381c6345beb90eb05f1e870) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/GerenciadorPerguntas.cs using Guid(b9cdc2466381c6345beb90eb05f1e870) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '336d1fc3abca5fdb0e693e225f008f94') in 0.1789827 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa4267e086fa73115a920a8fbf4dd752 DependenciesID=f3c9d4667659de87697790cf4523e3ac StaticDependenciesID=09c5080a2e3d6a43fc02f2e41e68fc61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scripts/Perguntas.cs
+  importAddress: Guid(a8f9183d961fd7b4697db4c4d37168ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Perguntas.cs using Guid(a8f9183d961fd7b4697db4c4d37168ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7bc548d4cf968574fd004a5c3e8085c8') in 0.0238946 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=80f33b4d2b6c285e2953345d4723cb09 DependenciesID=f25a80ab8d2b6f774cdcdcf8b7fe1fb8 StaticDependenciesID=b5d054a319098c6e4fb9892f534d4f9f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/MecanicasQuiz.cs
+  importAddress: Guid(a70ebd3997f1a5446b022fd8c8f8c801) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/MecanicasQuiz.cs using Guid(a70ebd3997f1a5446b022fd8c8f8c801) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9352d7445fba98f6ea84734776e8189e') in 0.0134963 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82ee91117acfe03afd0d020ff1e506f8 DependenciesID=97f4b2a6b1829cccd36cc317bbc04a71 StaticDependenciesID=daf5973c36da791a633d6c9843a6106d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.223929 seconds.
+  path: Assets/Data/NovoQuestionario.asset
+  importAddress: Guid(cbeb2eb14dd529b42a300c0027c1f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/NovoQuestionario.asset using Guid(cbeb2eb14dd529b42a300c0027c1f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '579a61cfa5f2a52761b45fdb1f2dc80a') in 0.0277276 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e4bb4c6129242e2aec399314f64dce9 DependenciesID=bb663538f128a4cdc600d6729c9cae23 StaticDependenciesID=de5547fcf37fc94ff15024ca529187d3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945849 seconds.
+  path: Assets/Data/NovoQuestionario.asset
+  importAddress: Guid(cbeb2eb14dd529b42a300c0027c1f7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Data/NovoQuestionario.asset using Guid(cbeb2eb14dd529b42a300c0027c1f7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cbcd9af06ae0e4cfa5293b301cddb9ab') in 0.0562368 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d3565737a0d6ec4135d9a17a3058fd25 DependenciesID=8f52154600d548b8a616b5c3f5b3e00d StaticDependenciesID=1b937d483382f4aa12cbd0f6c48cb480 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.786002 seconds.
+  path: Assets/Scripts/Perguntas.cs
+  importAddress: Guid(a8f9183d961fd7b4697db4c4d37168ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Perguntas.cs using Guid(a8f9183d961fd7b4697db4c4d37168ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3450053401033c59a1856265d9d5f364') in 0.0008112 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=252bcc010270caaeb4084d101e9c34f6 DependenciesID=6111d00d121f82ed719ee3f84493942a StaticDependenciesID=a8f934a5ba172040ecfb89b324dcf4d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.435227 seconds.
+  path: Assets/Scripts/Questionarios.cs
+  importAddress: Guid(adfce7c91a8e007468508c325dde5902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Questionarios.cs using Guid(adfce7c91a8e007468508c325dde5902) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3fa53746c98e44fc39c9f1c38b50dc7d') in 0.0008727 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=09976f79f5e1b40041ce3b8bbb379b0a DependenciesID=fe573ac032cf1055b7d711ffe97db9fc StaticDependenciesID=46fcdac3a3e943c6dd7b42dc9e9315e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 593.550963 seconds.
+  path: Assets/Scripts/MecanicasQuiz.cs
+  importAddress: Guid(a70ebd3997f1a5446b022fd8c8f8c801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MecanicasQuiz.cs using Guid(a70ebd3997f1a5446b022fd8c8f8c801) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2731a0ebd95535f1c9e61020a80a7a5e') in 0.0012645 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=98c92bb2eb91ccfdf2662c3b66b2b350 DependenciesID=f4c06fd0a1e186e0b514c5cb6631ddb3 StaticDependenciesID=3b3339c699362ce67cf28469f5f8e13b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.401950 seconds.
+  path: Assets/Scripts/GerenciadorPerguntas.cs
+  importAddress: Guid(b9cdc2466381c6345beb90eb05f1e870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GerenciadorPerguntas.cs using Guid(b9cdc2466381c6345beb90eb05f1e870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'da0b76ae972a4c591725a715c32660fc') in 0.0009295 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52e968286bb88ecea250d96ffd041851 DependenciesID=fcbd9c5d80c073c25f09811924e66d6b StaticDependenciesID=d2f48fa75fce82ce710df387ecb9002a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.826597 seconds.
+  path: Assets/Data/NovoQuestionario.asset
+  importAddress: Guid(cbeb2eb14dd529b42a300c0027c1f7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Data/NovoQuestionario.asset using Guid(cbeb2eb14dd529b42a300c0027c1f7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db52df06dc50396fd47dd0bae6779e57') in 0.0305999 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72199ad18948d0e371c2e80e41f1daed DependenciesID=53860498fba0e79ee462fdb7e75b3afe StaticDependenciesID=25b6bc582c54fd21db0e31279073bc9a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
