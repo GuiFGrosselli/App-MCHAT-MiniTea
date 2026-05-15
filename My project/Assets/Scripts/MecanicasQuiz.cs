@@ -83,7 +83,7 @@ public class MecanicasQuiz : MonoBehaviour
 
         if (acertou)
         {
-            placar += 10;
+            placar += 1;
             AtualizarPlacar();
         }
 
