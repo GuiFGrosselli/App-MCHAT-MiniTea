@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adfce7c91a8e007468508c325dde5902, type: 3}
+  m_Name: minitea
+  m_EditorClassIdentifier: Assembly-CSharp::Questionarios
+  nomeQuestionario: minitea
+  listaPerguntas:
+  - enunciado: "A crian\xE7a evita olhar diretamente nos olhos?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Tem grande dificuldade em ter intera\xE7\xE3o com adultos ou pessoas
+      da mesma idade (timidez exagerada)?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Chega a ficar muito zangado ou desesperado com alguma tentativa de
+      intera\xE7\xE3o com adultos ou pessoas da mesma idade?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Mostra-se distante, ausente, como se n\xE3o percebesse ou n\xE3o
+      importasse a outra pessoa?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "\xC9 muito dif\xEDcil conseguir a aten\xE7\xE3o da crian\xE7a?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "A crian\xE7a tem dificuldade para imitar gestos simples, como bater
+      palmas?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: Tem dificuldade ou muita demora para imitar sons?
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "S\xF3 com muito est\xEDmulo a crian\xE7a imita gestos ou sons?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "A crian\xE7a \xE0s vezes tem rea\xE7\xF5es emocionais aparentemente
+      sem rela\xE7\xE3o com o que o que est\xE1 presente ou acontece \xE0 sua volta
+      (ex: gritar, rir, sem motivo aparente)?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Costuma ser indiferente a situa\xE7\xF5es em que se esperaria um
+      rea\xE7\xE3o?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "A crian\xE7a \xE9 muito desajeitada (descoordenada)?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: Apresenta movimentos repetitivos?
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Tem movimentos estranhos com os dedos das m\xE3os ou com o corpo?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Costuma caminhar mais na ponta dos p\xE9s?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: Ocorre de agredir a si mesma (bater-se, morder-se, etc)?
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "A crian\xE7a brinca de forma estranha com objetos, diferente do que
+      seria esperado (ex: sugando, batendo, arrastando, enfileirando)?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Fixa a aten\xE7\xE3o somente em um aspecto ou parte do objeto ou
+      brinquedo (ex: roda de carrinho)?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: Tem interesse restrito, ou seja, somente em um ou dois objetos?
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: Mostra pouco interesse em brinquedos e objetos?
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "A crian\xE7a tem muita dificuldade em aceitar mudar o que est\xE1
+      fazendo para passar para outra atividade?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Fica zangada ou triste por mudan\xE7as simples (ex: lugar dos m\xF3veis,
+      trajeto para escola)?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Quando ocorrem mudan\xE7as bruscas mostra uma rea\xE7\xE3o intensa
+      (\xE9 dif\xEDcil de acalmar)?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "A crian\xE7a tem alguma forma estranha de olhar para alguns objetos
+      (ex: de muito perto, para uma parte s\xF3 do objeto)?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: Apresenta momentos de olhar parado, para o nada, como se estivesse
+      ausente?
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: Evita constantemente olhar para objetos apresentados?
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Parece que a crian\xE7a \xE0s vezes n\xE3o ouve direito ou n\xE3o
+      atende quando chamada pelo nome?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Tem rea\xE7\xF5es inesperadas (ex: crise de irritabilidade, tapar
+      os ouvidos) quando ouve alguns sons do ambiente?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "A crian\xE7a segue levando \xE0 boca objetos, mesmo que outras crian\xE7as
+      da sua idade j\xE1 n\xE3o fa\xE7am mais isso?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Tenta cheirar ou experimentar o gosto de objetos n\xE3o comest\xEDveis,
+      e at\xE9 pessoas?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Gosta de comer s\xF3 alguns alimentos espec\xEDficos, recusando-se
+      a experimentar outros?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "A rea\xE7\xE3o a um est\xEDmulo doloroso \xE9 fora do normal: quase
+      n\xE3o reage ou reage muito mais intensamente que o esperado?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Parece que a crian\xE7a muitas vezes tem medo ou nervosismo exagerado?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: Chega a ter medo de coisas inofensivas?
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Parece n\xE3o ter medo quando seria esperado que tivesse (ex: perto
+      de um cachorro latindo, atravessar a rua)?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}
+  - enunciado: "Chega a ser dif\xEDcil acalmar a crian\xE7a nas crises de medo?"
+    alternativas:
+    - SIM
+    - "N\xC3O"
+    respostaCorreta: 0
+    imagemPergunta: {fileID: 0}

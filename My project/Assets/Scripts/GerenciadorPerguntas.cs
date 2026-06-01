@@ -17,11 +17,18 @@ public class GerenciadorPerguntas : MonoBehaviour
     private Perguntas perguntaAtual;
     private MecanicasQuiz mecanicas;
 
-    void Start()
+void Start()
+{
+    mecanicas = GetComponent<MecanicasQuiz>();
+
+    // Se viemos do menu e um questionário foi escolhido, usamos ele
+    if (MenuSelecao.QuestionarioEscolhido != null)
     {
-        mecanicas = GetComponent<MecanicasQuiz>();
-        IniciarQuiz();
+        questionarioAtual = MenuSelecao.QuestionarioEscolhido;
     }
+    
+    IniciarQuiz();
+}
 
     public void IniciarQuiz()
     {
