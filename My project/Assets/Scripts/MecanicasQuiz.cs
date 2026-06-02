@@ -97,16 +97,70 @@ public class MecanicasQuiz : MonoBehaviour
     }
 
     // Mostra a tela de Game Over
+ // Mostra a tela de Game Over com mensagens baseadas no questionário e na pontuação
     public void GameOver()
     {
         timerAtivo = false;
         painelFim.SetActive(true);
-        txtPontosFinal.text = "Você fez " + placar + " pontos!";
+
+        // Pega o questionário atual do gerenciador
+        Questionarios questionarioRodando = gerenciador.questionarioAtual;
+
+        if (questionarioRodando != null)
+        {
+            // --- REGRAS PARA O QUESTIONÁRIO 1 ---
+            // IMPORTANTE: Mude "NomeDoSeuArquivo1" para o nome do arquivo na pasta Assets
+            if (questionarioRodando.name == "mchat")
+            {
+                if (placar >= 0 && placar <= 2)
+                {
+                    txtPontosFinal.text = "BAIXO RISCO: Pontuação total é de 0-2; se a criança tiver menos de 24 meses, repetir o M-CHAT-R aos 24 meses. Não é necessário qualquer outra medida, a não ser que a vigilância indique risco de TEA.";
+                }
+                else if (placar >= 3 && placar <= 7)
+                {
+                    txtPontosFinal.text = "RISCO MODERADO: Pontuação total é 3-7; administrar a Entrevista de Seguimento (segunda etapa do M-CHAT-R/F) para obter informação adicional sobre as respostas de risco. Se a pontuação do M-CHAT-R/F continuar a ser igual ou superior a 2, a criança pontua positivo na triagem. Medidas necessárias: encaminhar a criança para avaliação diagnóstica e para avaliação da necessidade de intervenção. Se a pontuação da Entrevista de Seguimento for 0-1, a criança pontua negativo. Nenhuma outra medida é necessária, a não ser que a vigilância indique risco de TEA. A criança deverá fazer a triagem novamente em futuras consultas de rotina.";
+                }
+                else if (placar >= 8 && placar <= 20)
+                {
+                    txtPontosFinal.text = "ALTO RISCO: Pontuação total é de 8-20; pode-se prescindir da Entrevista de Seguimento e encaminhar a criança para avaliação diagnóstica e também para avaliação da necessidade de intervenção.";
+                }
+                else
+                {
+                    // Caso faça mais de 20 pontos por algum motivo
+                    txtPontosFinal.text = "Excelente resultado! Você fez " + placar + " pontos.";
+                }
+            }
+            
+            // --- REGRAS PARA O QUESTIONÁRIO 2 ---
+            // IMPORTANTE: Mude "NomeDoSeuArquivo2" para o nome do arquivo na pasta Assets
+            else if (questionarioRodando.name == "minitea")
+            {
+                if (placar >= 9)
+                {
+                    txtPontosFinal.text = "Escore de 09 ou mais indica que a criança deve ser melhor avaliada quanto à possibilidade de TEA.";
+                }
+                else
+                {
+                    // Mensagem caso a pontuação seja 9 ou menos no Questionário 2
+                    txtPontosFinal.text = "Você concluiu o Questionário 2 e marcou " + placar + " pontos.";
+                }
+            }
+            
+            // --- CASO NENHUM DOS DOIS SEJA IDENTIFICADO (SEGURANÇA) ---
+            else
+            {
+                txtPontosFinal.text = "Você concluiu o quiz! Total: " + placar + " pontos.";
+            }
+        }
+        else
+        {
+            txtPontosFinal.text = "Fim de jogo! Pontuação: " + placar;
+        }
     }
 
     // Botão Reiniciar (chamado pelo botão na UI)
     public void Reiniciar()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("MenuInicial");
     }
 }

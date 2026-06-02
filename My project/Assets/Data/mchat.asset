@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: mchat
   m_EditorClassIdentifier: Assembly-CSharp::Questionarios
   nomeQuestionario: 'M-CHAT-RF '
+  introducaoDoQuiz: "Neste questionario ser\xE3o feitas perguntas de sim/n\xE3o,
+    \xE9 extremamente importante selecionar a op\xE7\xE3o que pontua nas que seria
+    a op\xE7\xE3o NAO, a imagem \xE9 negativo, ja as que s\xE3o SIM \xE9 um positivo"
   listaPerguntas:
   - enunciado: "Se voc\xEA apontar para algum objeto no quarto, a sua crian\xE7a
       olha para este objeto? (POR EXEMPLO, se voc\xEA apontar para um brinquedo ou
@@ -21,13 +24,13 @@ MonoBehaviour:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "Alguma vez voc\xEA se perguntou se a sua crian\xE7a pode ser surda? "
     alternativas:
     - SIM
     - "N\xC3O"
     respostaCorreta: 0
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: 3231845376359937049, guid: a14233468fa9f4f4bb11b73625c01ee0, type: 3}
   - enunciado: ". A sua crian\xE7a brinca de faz de contas? (POR EXEMPLO, faz de
       conta que bebe em um copo vazio, faz de conta que fala ao telefone, faz de
       conta que d\xE1 comida a uma boneca ou a um bichinho de pel\xFAcia?) "
@@ -35,14 +38,14 @@ MonoBehaviour:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a gosta de subir nas coisas? (POR EXEMPLO, m\xF3veis,
       brinquedos em parques ou escadas) "
     alternativas:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a faz movimentos estranhos com os dedos perto dos
       olhos? (POR EXEMPLO, mexe os dedos em frente aos olhos e fica olhando para
       os mesmos?) "
@@ -50,14 +53,14 @@ MonoBehaviour:
     - SIM
     - "N\xC3O"
     respostaCorreta: 0
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: 3231845376359937049, guid: a14233468fa9f4f4bb11b73625c01ee0, type: 3}
   - enunciado: "A sua crian\xE7a aponta com o dedo para pedir algo ou para conseguir
       ajuda? (POR EXEMPLO, aponta para um biscoito ou brinquedo fora do alcance dele?)"
     alternativas:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a aponta com o dedo para mostrar algo interessante
       para voc\xEA? (POR EXEMPLO, aponta para um avi\xE3o no c\xE9u ou um caminh\xE3o
       grande na rua)"
@@ -65,14 +68,14 @@ MonoBehaviour:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a se interessa por outras crian\xE7as? (POR EXEMPLO,
       olha para outras crian\xE7as, sorri para elas ou se aproxima delas?) "
     alternativas:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a traz coisas para mostrar para voc\xEA ou as segura
       para que voc\xEA as veja \u2013 n\xE3o para conseguir ajuda, mas apenas para
       compartilhar? (POR EXEMPLO, para mostrar uma flor, um bichinho de pel\xFAcia
@@ -81,7 +84,7 @@ MonoBehaviour:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a responde quando voc\xEA o chama pelo nome? (POR
       EXEMPLO, ela olha para voc\xEA, fala ou emite algum som, ou para o que est\xE1
       fazendo quando voc\xEA a chama pelo nome?)"
@@ -89,14 +92,14 @@ MonoBehaviour:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "Quando voc\xEA sorri para a sua crian\xE7a, ela sorri de volta para
       voc\xEA? "
     alternativas:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a fica muito incomodada com barulhos do dia a dia?
       (POR EXEMPLO, grita ou chora ao ouvir barulhos como os de liquidificador ou
       de m\xFAsica alta? "
@@ -104,20 +107,20 @@ MonoBehaviour:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a anda? "
     alternativas:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a olha nos seus olhos quando voc\xEA est\xE1 falando
       ou brincando com ela, ou vestindo a roupa dela? "
     alternativas:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a tenta imitar o que voc\xEA faz? (POR EXEMPLO, quando
       voc\xEA d\xE1 tchau, ou bate palmas, ou joga um beijo, ele repete o que voc\xEA
       faz?) "
@@ -125,21 +128,21 @@ MonoBehaviour:
     - SIM
     - "N\xC3O"
     respostaCorreta: 0
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: 3231845376359937049, guid: a14233468fa9f4f4bb11b73625c01ee0, type: 3}
   - enunciado: "Quando voc\xEA vira a cabe\xE7a para olhar para alguma coisa, a sua
       crian\xE7a olha ao redor para ver o que voc\xEA est\xE1 olhando? "
     alternativas:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a tenta fazer voc\xEA olhar para ela? (POR EXEMPLO,
       ela olha para voc\xEA para ser elogiada/aplaudida) "
     alternativas:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a compreende quando voc\xEA pede para ela fazer alguma
       coisa? (POR EXEMPLO, se voc\xEA n\xE3o apontar, a sua crian\xE7a entende quando
       voc\xEA pede: \u201Ccoloca o copo na mesa\u201D ou \u201Cliga a televis\xE3o\u201D)? "
@@ -147,7 +150,7 @@ MonoBehaviour:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "Quando acontece algo novo, a sua crian\xE7a olha para o seu rosto
       para ver como voc\xEA se sente sobre o que aconteceu? (POR EXEMPLO, se ela
       ouve um barulho estranho ou v\xEA algo engra\xE7ado, ou v\xEA um brinquedo
@@ -156,11 +159,11 @@ MonoBehaviour:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
   - enunciado: "A sua crian\xE7a gosta de atividades de movimento? (POR EXEMPLO,
       ser balan\xE7ada ou pular em seus joelhos). "
     alternativas:
     - SIM
     - "N\xC3O"
     respostaCorreta: 1
-    imagemPergunta: {fileID: 0}
+    imagemPergunta: {fileID: -8776159758478093870, guid: 23df9a34c7771f6448a5f6a6b0df0733, type: 3}
