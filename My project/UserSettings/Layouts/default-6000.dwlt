@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 0
     width: 356
     height: 573
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 43
+    y: 0
     width: 1280
     height: 36
   m_SerializedDataModeController:
@@ -1302,7 +1302,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 150
     height: 450
   m_SerializedDataModeController:
@@ -1350,20 +1350,20 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50556
-    - m_Data: 50860
-    - m_Data: 50862
-    - m_Data: 50864
-    - m_Data: 50866
-    - m_Data: 50868
-    - m_Data: 50870
-    - m_Data: 50872
-    - m_Data: 50874
-    - m_Data: 50876
-    - m_Data: 50878
-    - m_Data: 50880
-    - m_Data: 50882
-    - m_Data: 50884
+    - m_Data: 51000
+    - m_Data: 51002
+    - m_Data: 51004
+    - m_Data: 51006
+    - m_Data: 51008
+    - m_Data: 51010
+    - m_Data: 51012
+    - m_Data: 51014
+    - m_Data: 51016
+    - m_Data: 51018
+    - m_Data: 51020
+    - m_Data: 51022
+    - m_Data: 51024
+    - m_Data: 51026
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1397,24 +1397,24 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50556
-    - m_Data: 50860
-    - m_Data: 50862
-    - m_Data: 50864
-    - m_Data: 50866
-    - m_Data: 50868
-    - m_Data: 50870
-    - m_Data: 50872
-    - m_Data: 50874
-    - m_Data: 50876
-    - m_Data: 50878
-    - m_Data: 50880
-    - m_Data: 50882
-    - m_Data: 50884
+    - m_Data: 51000
+    - m_Data: 51002
+    - m_Data: 51004
+    - m_Data: 51006
+    - m_Data: 51008
+    - m_Data: 51010
+    - m_Data: 51012
+    - m_Data: 51014
+    - m_Data: 51016
+    - m_Data: 51018
+    - m_Data: 51020
+    - m_Data: 51022
+    - m_Data: 51024
+    - m_Data: 51026
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: MenuInicial
-      m_OriginalName: MenuInicial
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -1422,10 +1422,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 51034
+        m_Data: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 3}
@@ -1494,8 +1494,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 924
-    y: 79
+    x: 925
+    y: 24
     width: 355
     height: 547
   m_SerializedDataModeController:
@@ -1546,8 +1546,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 603
-    y: 79
+    x: 604
+    y: 24
     width: 319
     height: 450
   m_SerializedDataModeController:
@@ -1659,8 +1659,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 151
-    y: 79
+    x: 152
+    y: 24
     width: 450
     height: 450
   m_SerializedDataModeController:
@@ -2461,7 +2461,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 555
+    y: 500
     width: 923
     height: 71
   m_SerializedDataModeController:
