@@ -118,7 +118,7 @@ public class MecanicasQuiz : MonoBehaviour
                 }
                 else if (placar >= 3 && placar <= 7)
                 {
-                    txtPontosFinal.text = "RISCO MODERADO: Pontuação total é 3-7; administrar a Entrevista de Seguimento (segunda etapa do M-CHAT-R/F) para obter informação adicional sobre as respostas de risco. Se a pontuação do M-CHAT-R/F continuar a ser igual ou superior a 2, a criança pontua positivo na triagem. Medidas necessárias: encaminhar a criança para avaliação diagnóstica e para avaliação da necessidade de intervenção. Se a pontuação da Entrevista de Seguimento for 0-1, a criança pontua negativo. Nenhuma outra medida é necessária, a não ser que a vigilância indique risco de TEA. A criança deverá fazer a triagem novamente em futuras consultas de rotina.";
+                    txtPontosFinal.text = "RISCO MODERADO: Pontuação total é 3-7; administrar a Entrevista de Seguimento (segunda etapa do M-CHAT-R/F)";
                 }
                 else if (placar >= 8 && placar <= 20)
                 {
