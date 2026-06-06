@@ -1,0 +1,1 @@
+S:\GitHub\App-MCHAT-MiniTea\My project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\181q1do8\obj\arm64-v8a
