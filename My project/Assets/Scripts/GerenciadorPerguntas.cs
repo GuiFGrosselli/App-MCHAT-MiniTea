@@ -14,6 +14,7 @@ public class GerenciadorPerguntas : MonoBehaviour
     public GameObject painelExplicacao;    // Objeto do Painel de instruções
     public TextMeshProUGUI txtExplicacao;   // Componente de texto que exibirá as instruções
 
+
     [Header("Dados do Quiz")]
     public Questionarios questionarioAtual; // Questionário carregado
 
@@ -69,6 +70,7 @@ public class GerenciadorPerguntas : MonoBehaviour
         
         IniciarQuiz(); // Inicia o temporizador e carrega a primeira pergunta
     }
+
 
     public void IniciarQuiz()
     {
