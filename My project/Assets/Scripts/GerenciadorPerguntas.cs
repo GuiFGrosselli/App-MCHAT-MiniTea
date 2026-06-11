@@ -6,33 +6,33 @@ using System.Collections.Generic;
 public class GerenciadorPerguntas : MonoBehaviour
 {
     [Header("Referências da UI")]
-    public TextMeshProUGUI txtPergunta;    // Texto da pergunta na tela
-    public Image imgPergunta;              // Imagem da pergunta na tela
-    public Button[] btnAlternativas;       // Array com os botões (o script usará os 2 primeiros)
+    public TextMeshProUGUI txtPergunta;    
+    public Image imgPergunta;              
+    public Button[] btnAlternativas;       
 
     [Header("Painel de Explicação Dinâmico")]
-    public GameObject painelExplicacao;    // Objeto do Painel de instruções
-    public TextMeshProUGUI txtExplicacao;   // Componente de texto que exibirá as instruções
-
+    public GameObject painelExplicacao;    
+    public TextMeshProUGUI txtExplicacao;   
 
     [Header("Dados do Quiz")]
-    public Questionarios questionarioAtual; // Questionário carregado
+    public Questionarios questionarioAtual; 
 
-    private List<Perguntas> listaPerguntas;
+    private List<Perguntas> listaPerguntasFase1;
+    private List<Perguntas> perguntasParaSeguimento = new List<Perguntas>(); 
     private Perguntas perguntaAtual;
     private MecanicasQuiz mecanicas;
+
+    private bool estaNaFaseSeguimento = false;
 
     void Start()
     {
         mecanicas = GetComponent<MecanicasQuiz>();
 
-        // Se viemos do menu e um questionário foi escolhido, usamos ele
         if (MenuSelecao.QuestionarioEscolhido != null)
         {
             questionarioAtual = MenuSelecao.QuestionarioEscolhido;
         }
 
-        // Configura e mostra a explicação personalizada antes do jogo começar
         MostrarPainelExplicacao();
     }
 
@@ -41,67 +41,83 @@ public class GerenciadorPerguntas : MonoBehaviour
         if (painelExplicacao != null)
         {
             painelExplicacao.SetActive(true);
-            
-            // Alimenta o componente de texto com o que foi digitado no ScriptableObject do questionário atual
             if (txtExplicacao != null && !string.IsNullOrEmpty(questionarioAtual.introducaoDoQuiz))
             {
                 txtExplicacao.text = questionarioAtual.introducaoDoQuiz;
             }
-            else if (txtExplicacao != null)
-            {
-                // Texto de segurança caso você esqueça de preencher o ScriptableObject
-                txtExplicacao.text = "Instruções:\n\nSelecione a resposta correta para avançar.";
-            }
         }
         else
         {
-            // Se você não colocou um painel na cena, o jogo inicia direto para não travar
             IniciarQuiz();
         }
     }
 
-    // Este método DEVE ser associado ao evento On Click() do botão "Começar" do painel
     public void FecharExplicacaoEDesenrolarQuiz()
     {
-        if (painelExplicacao != null)
-        {
-            painelExplicacao.SetActive(false); // Esconde o painel de instruções
-        }
-        
-        IniciarQuiz(); // Inicia o temporizador e carrega a primeira pergunta
+        if (painelExplicacao != null) painelExplicacao.SetActive(false);
+        IniciarQuiz();
     }
-
 
     public void IniciarQuiz()
     {
-        // Cria a cópia das perguntas para jogar
-        listaPerguntas = new List<Perguntas>(questionarioAtual.listaPerguntas);
+        estaNaFaseSeguimento = false;
+        perguntasParaSeguimento.Clear();
+        listaPerguntasFase1 = new List<Perguntas>(questionarioAtual.listaPerguntas);
         CarregarPergunta();
     }
 
     public void CarregarPergunta()
     {
-        if (listaPerguntas.Count == 0)
+        if (!estaNaFaseSeguimento)
         {
-            mecanicas.GameOver();
-            return;
-        }
+            if (listaPerguntasFase1.Count == 0)
+            {
+                mecanicas.GameOver();
+                return;
+            }
 
-        // Sorteia uma pergunta aleatória da lista
-        int indice = Random.Range(0, listaPerguntas.Count);
-        perguntaAtual = listaPerguntas[indice];
-        listaPerguntas.RemoveAt(indice);
+            int indice = Random.Range(0, listaPerguntasFase1.Count);
+            perguntaAtual = listaPerguntasFase1[indice];
+            listaPerguntasFase1.RemoveAt(indice);
+        }
+        else
+        {
+            if (perguntasParaSeguimento.Count == 0)
+            {
+                mecanicas.GameOver();
+                return;
+            }
+
+            perguntaAtual = perguntasParaSeguimento[0];
+            perguntasParaSeguimento.RemoveAt(0);
+        }
 
         MostrarPergunta();
         mecanicas.ReiniciarTimer();
     }
 
+    public void ComecarFaseSeguimentoBotao()
+    {
+        mecanicas.painelFim.SetActive(false); 
+        estaNaFaseSeguimento = true;
+        
+        // Avisa o MecanicasQuiz para iniciar a nova contagem limpa
+        mecanicas.IniciarNovaContagemSeguimento(); 
+        
+        CarregarPergunta();
+    }
+
     void MostrarPergunta()
     {
-        // Atualiza o enunciado
-        txtPergunta.text = perguntaAtual.enunciado;
+        if (estaNaFaseSeguimento)
+        {
+            txtPergunta.text = "[SEGUIMENTO] " + perguntaAtual.enunciado;
+        }
+        else
+        {
+            txtPergunta.text = perguntaAtual.enunciado;
+        }
 
-        // Lógica da Imagem da pergunta
         if (perguntaAtual.imagemPergunta != null)
         {
             imgPergunta.sprite = perguntaAtual.imagemPergunta;
@@ -112,28 +128,50 @@ public class GerenciadorPerguntas : MonoBehaviour
             imgPergunta.gameObject.SetActive(false);
         }
 
-        // Configura exatamente 2 botões na tela, sem embaralhar
         for (int i = 0; i < btnAlternativas.Length; i++)
         {
-            // Ativa apenas os dois primeiros botões se houver alternativas suficientes
             if (i < 2 && i < perguntaAtual.alternativas.Length)
             {
                 btnAlternativas[i].gameObject.SetActive(true);
-                
                 TextMeshProUGUI textoBotao = btnAlternativas[i].GetComponentInChildren<TextMeshProUGUI>();
                 textoBotao.text = perguntaAtual.alternativas[i];
 
-                // Compara se o índice atual (0 ou 1) é a resposta correta configurada
-                bool acertou = (i == perguntaAtual.respostaCorreta);
+                int indiceAlternativa = i; 
 
                 btnAlternativas[i].onClick.RemoveAllListeners();
-                btnAlternativas[i].onClick.AddListener(() => mecanicas.Responder(acertou));
+                btnAlternativas[i].onClick.AddListener(() => ComputarResposta(indiceAlternativa));
             }
             else
             {
-                // Desativa botões extras (3º, 4º...) que estejam na tela
                 btnAlternativas[i].gameObject.SetActive(false);
             }
         }
+    }
+
+    void ComputarResposta(int indiceEscolhido)
+    {
+        bool devePontuar = false;
+
+        if (questionarioAtual.name == "MCHAT")
+        {
+            if (indiceEscolhido == perguntaAtual.respostaAlerta)
+            {
+                devePontuar = true;
+                
+                if (!estaNaFaseSeguimento)
+                {
+                    perguntasParaSeguimento.Add(perguntaAtual);
+                }
+            }
+        }
+        else
+        {
+            if (indiceEscolhido == perguntaAtual.respostaCorreta)
+            {
+                devePontuar = true;
+            }
+        }
+
+        mecanicas.Responder(devePontuar);
     }
 }

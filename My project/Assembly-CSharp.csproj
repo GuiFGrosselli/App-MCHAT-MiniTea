@@ -52,6 +52,7 @@
     <Compile Include="Assets\Scripts\GerenciadorPerguntas.cs" />
     <Compile Include="Assets\Scripts\Perguntas.cs" />
     <Compile Include="Assets\Scripts\Questionarios.cs" />
+    <Compile Include="Assets\Scripts\GerenciadorMenu.cs" />
     <Compile Include="Assets\Scripts\MenuSelecao.cs" />
     <Compile Include="Assets\Scripts\MecanicasQuiz.cs" />
   </ItemGroup>
