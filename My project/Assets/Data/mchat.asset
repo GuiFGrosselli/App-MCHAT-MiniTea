@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: MCHAT
   m_EditorClassIdentifier: Assembly-CSharp::Questionarios
   nomeQuestionario: MCHAT
-  introducaoDoQuiz: "Neste questionario ser\xE3o feitas perguntas de sim/n\xE3o,
-    \xE9 extremamente importante selecionar a op\xE7\xE3o que pontua nas que seria
-    a op\xE7\xE3o NAO, a imagem \xE9 negativo, ja as que s\xE3o SIM \xE9 um positivo"
+  introducaoDoQuiz: "Este question\xE1rio cont\xE9m perguntas de Sim/N\xE3o. Aten\xE7\xE3o
+    aos \xEDcones para pontuar corretamente: a op\xE7\xE3o N\xC3O \xE9 representada
+    por um \"X\", e a op\xE7\xE3o SIM \xE9 representada por um sinal de positivo"
   listaPerguntas:
   - enunciado: "Se voc\xEA apontar para algum objeto no quarto, a sua crian\xE7a
       olha para este objeto? (POR EXEMPLO, se voc\xEA apontar para um brinquedo ou

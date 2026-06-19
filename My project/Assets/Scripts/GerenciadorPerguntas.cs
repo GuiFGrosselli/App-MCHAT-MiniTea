@@ -111,7 +111,7 @@ public class GerenciadorPerguntas : MonoBehaviour
     {
         if (estaNaFaseSeguimento)
         {
-            txtPergunta.text = "[SEGUIMENTO] " + perguntaAtual.enunciado;
+            txtPergunta.text = "[PASSA-FALHA] " + perguntaAtual.enunciado;
         }
         else
         {

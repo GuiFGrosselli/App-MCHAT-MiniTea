@@ -1,0 +1,647 @@
+Base path: 'D:/UNIty/unity editor/6000.4.0f1/Editor/Data', plugins path 'D:/UNIty/unity editor/6000.4.0f1/Editor/Data/PlaybackEngines', jobs: n
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=5874 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapIndirectIntegration.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=5874 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapIndirectIntegration.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(260): use of potentially uninitialized variable (SampleRectangularLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(329): use of potentially uninitialized variable (SampleDiscLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(413): use of potentially uninitialized variable (SampleEmissiveMesh)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(475): use of potentially uninitialized variable (SampleEnvironmentLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(593): use of potentially uninitialized variable (SampleFalloff)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(632): use of potentially uninitialized variable (GetPunctualAttenuation)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(708): use of potentially uninitialized variable (GetRectangularLightEmission)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(817): use of potentially uninitialized variable (EmissiveMISWeightForLightRay)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(886): use of potentially uninitialized variable (GetNumLights)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(901): use of potentially uninitialized variable (SampleLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(985): use of potentially uninitialized variable (SampleLightsRadianceRIS)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightmapIntegrationHelpers.hlsl(23): use of potentially uninitialized variable (GetExpandedSample)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/PathTracing.hlsl(38): use of potentially uninitialized variable (ScatterDiffusely)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/PathTracing.hlsl(290): use of potentially uninitialized variable (Scatter)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/UnifiedRayTracing/Compute/RayQuerySoftware.hlsl(246): use of potentially uninitialized variable (UnifiedRT::RayQuery::Proceed)
+ ok=1 outsize=329635
+
+Cmd: compileComputeKernel
+  insize=1323 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/TemporalFiltering.compute kernel=FilterTemporally ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=16293
+
+Cmd: compileComputeKernel
+  insize=1013 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapNormalIntegration.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=1013 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapNormalIntegration.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightmapIntegrationHelpers.hlsl(23): use of potentially uninitialized variable (GetExpandedSample)
+ ok=1 outsize=17791
+
+Cmd: compileComputeKernel
+  insize=419 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/RisEstimation.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=419 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/RisEstimation.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=155616
+
+Cmd: compileComputeKernel
+  insize=3142 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationDirect.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=3142 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationDirect.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(260): use of potentially uninitialized variable (SampleRectangularLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(329): use of potentially uninitialized variable (SampleDiscLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(413): use of potentially uninitialized variable (SampleEmissiveMesh)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(475): use of potentially uninitialized variable (SampleEnvironmentLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(593): use of potentially uninitialized variable (SampleFalloff)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(632): use of potentially uninitialized variable (GetPunctualAttenuation)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(708): use of potentially uninitialized variable (GetRectangularLightEmission)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(886): use of potentially uninitialized variable (GetNumLights)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(897): use of potentially uninitialized variable (SampleLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(985): use of potentially uninitialized variable (SampleLightsRadianceRIS)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/UnifiedRayTracing/Compute/RayQuerySoftware.hlsl(246): use of potentially uninitialized variable (UnifiedRT::RayQuery::Proceed)
+ ok=1 outsize=207775
+
+Cmd: compileComputeKernel
+  insize=4571 file=Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature/ScreenResolveLookup.compute kernel=Lookup ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/Lighting/SurfaceCache/IrradianceCompression.hlsl(21): array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
+ ok=1 outsize=45866
+
+Cmd: compileComputeKernel
+  insize=1242 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRays.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4734
+
+Cmd: compileComputeKernel
+  insize=1242 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRays.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=43699
+
+Cmd: compileComputeKernel
+  insize=1242 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRays.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2337
+
+Cmd: compileComputeKernel
+  insize=1242 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRays.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=28173
+
+Cmd: compileComputeKernel
+  insize=2199 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/Scrolling.compute kernel=Scroll ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=10355
+
+Cmd: compileComputeKernel
+  insize=2836 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/RestirSpatial.compute kernel=ResampleSpatially ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=32740
+
+Cmd: compileComputeKernel
+  insize=4499 file=Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature/ScreenResolveUpsampling.compute kernel=Upsample ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/Lighting/SurfaceCache/IrradianceCompression.hlsl(30): array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
+ ok=1 outsize=19667
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kReadLaneFirst ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2636
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kReadLaneAtShuffle ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2776
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kReadLaneAtBroadcast ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2746
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kPrefixSum ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5414
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kPrefixProduct ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=6174
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kPrefixCountBits ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5834
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kIsFirstLane ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1928
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kGetLaneIndex ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2339
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kGetLaneCount ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1337
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kSum ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5818
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kProduct ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5706
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kMin ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5606
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kMax ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5650
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kCountBits ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=6288
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kBitXor ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=6017
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kBitOr ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=6016
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kBitAnd ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5945
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kBallot ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=6285
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kAnyTrue ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=6050
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kAllTrue ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=6018
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kAllEqual ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=6351
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kReadLaneFirst ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1103
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kReadLaneAtShuffle ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1213
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kReadLaneAtBroadcast ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1188
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kPrefixSum ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3230
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kPrefixProduct ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3480
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kPrefixCountBits ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3417
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kIsFirstLane ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=670
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kGetLaneIndex ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=936
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kGetLaneCount ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=464
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kSum ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3176
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kProduct ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3113
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kMin ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3056
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kMax ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3083
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kCountBits ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3450
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kBitXor ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3237
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kBitOr ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3236
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kBitAnd ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3197
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kBallot ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3447
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kAnyTrue ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3255
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kAllTrue ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3238
+
+Cmd: compileComputeKernel
+  insize=8843 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsWave.compute kernel=kAllEqual ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3490
+
+Cmd: compileComputeKernel
+  insize=2452 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/PathTracing/PathIteratorTest.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4734
+
+Cmd: compileComputeKernel
+  insize=2452 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/PathTracing/PathIteratorTest.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(260): use of potentially uninitialized variable (SampleRectangularLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(329): use of potentially uninitialized variable (SampleDiscLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(413): use of potentially uninitialized variable (SampleEmissiveMesh)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(475): use of potentially uninitialized variable (SampleEnvironmentLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(593): use of potentially uninitialized variable (SampleFalloff)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(632): use of potentially uninitialized variable (GetPunctualAttenuation)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(708): use of potentially uninitialized variable (GetRectangularLightEmission)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(817): use of potentially uninitialized variable (EmissiveMISWeightForLightRay)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(886): use of potentially uninitialized variable (GetNumLights)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(897): use of potentially uninitialized variable (SampleLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(985): use of potentially uninitialized variable (SampleLightsRadianceRIS)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/PathTracing.hlsl(38): use of potentially uninitialized variable (ScatterDiffusely)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/PathTracing.hlsl(290): use of potentially uninitialized variable (Scatter)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/UnifiedRayTracing/Compute/RayQuerySoftware.hlsl(246): use of potentially uninitialized variable (UnifiedRT::RayQuery::Proceed)
+ ok=1 outsize=297472
+
+Cmd: compileComputeKernel
+  insize=2452 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/PathTracing/PathIteratorTest.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2337
+
+Cmd: compileComputeKernel
+  insize=2452 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/PathTracing/PathIteratorTest.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=244867
+
+Cmd: compileComputeKernel
+  insize=3311 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ResolveAccumulation.compute kernel=NormalizeShadowMask ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3981
+
+Cmd: compileComputeKernel
+  insize=3311 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ResolveAccumulation.compute kernel=NormalizeDirection ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4592
+
+Cmd: compileComputeKernel
+  insize=3311 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ResolveAccumulation.compute kernel=NormalizeRadiance ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3526
+
+Cmd: compileComputeKernel
+  insize=3311 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ResolveAccumulation.compute kernel=NormalizeAO ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3580
+
+Cmd: compileComputeKernel
+  insize=3311 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ResolveAccumulation.compute kernel=NormalizeValidity ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3526
+
+Cmd: compileComputeKernel
+  insize=423 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/UniformEstimation.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=423 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/UniformEstimation.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=134659
+
+Cmd: compileComputeKernel
+  insize=4594 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapGBufferIntegration.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=4594 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapGBufferIntegration.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/StochasticLightmapSampling.hlsl(27): use of potentially uninitialized variable (LightmapSampleTexelOffset)
+ ok=1 outsize=86515
+
+Cmd: compileComputeKernel
+  insize=7515 file=Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature/Debug.compute kernel=Visualize ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=41370
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kReadThreadFirst ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1072
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kReadThreadAtShuffle ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1076
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kReadThreadAtBroadcast ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1078
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kPrefixSum ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1066
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kPrefixProduct ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1070
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kPrefixCountBits ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1072
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kIsFirstThread ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1070
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kGetThreadIndex ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1071
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kGetThreadCount ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1071
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kSum ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1870
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kProduct ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1874
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kMin ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1060
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kMax ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1060
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kCountBits ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1876
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kBitXor ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1873
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kBitOr ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1872
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kBitAnd ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1873
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kBallot ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1873
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kAnyTrue ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1064
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kAllTrue ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1874
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kAllEqual ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1065
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kReadThreadFirst ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=380
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kReadThreadAtShuffle ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=384
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kReadThreadAtBroadcast ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=386
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kPrefixSum ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=374
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kPrefixProduct ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=378
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kPrefixCountBits ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=380
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kIsFirstThread ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=378
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kGetThreadIndex ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=379
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kGetThreadCount ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=379
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kSum ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=698
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kProduct ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=702
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kMin ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=368
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kMax ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=368
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kCountBits ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=704
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kBitXor ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=701
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kBitOr ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=700
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kBitAnd ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=701
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kBallot ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=701
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kAnyTrue ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=372
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kAllTrue ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=702
+
+Cmd: compileComputeKernel
+  insize=7873 file=Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading/FunctionTestsGroup.compute kernel=kAllEqual ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=GROUP_SIZE_1 SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=373
+
+Cmd: compileComputeKernel
+  insize=10409 file=Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature/PatchAllocation.compute kernel=Allocate ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/Lighting/SurfaceCache/IrradianceCompression.hlsl(30): array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
+ ok=1 outsize=49201
+
+Cmd: compileComputeKernel
+  insize=251 file=Packages/com.unity.render-pipelines.core/Tests/Editor/BufferCopyTest.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1635
+
+Cmd: compileComputeKernel
+  insize=251 file=Packages/com.unity.render-pipelines.core/Tests/Editor/BufferCopyTest.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=993
+
+Cmd: compileComputeKernel
+  insize=2538 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/SpatialFiltering.compute kernel=FilterSpatially ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=32632
+
+Cmd: compileComputeKernel
+  insize=5231 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationIndirect.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=5231 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationIndirect.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(260): use of potentially uninitialized variable (SampleRectangularLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(329): use of potentially uninitialized variable (SampleDiscLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(413): use of potentially uninitialized variable (SampleEmissiveMesh)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(475): use of potentially uninitialized variable (SampleEnvironmentLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(593): use of potentially uninitialized variable (SampleFalloff)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(632): use of potentially uninitialized variable (GetPunctualAttenuation)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(708): use of potentially uninitialized variable (GetRectangularLightEmission)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(817): use of potentially uninitialized variable (EmissiveMISWeightForLightRay)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(886): use of potentially uninitialized variable (GetNumLights)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(901): use of potentially uninitialized variable (SampleLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(985): use of potentially uninitialized variable (SampleLightsRadianceRIS)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/PathTracing.hlsl(38): use of potentially uninitialized variable (ScatterDiffusely)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/PathTracing.hlsl(290): use of potentially uninitialized variable (Scatter)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/UnifiedRayTracing/Compute/RayQuerySoftware.hlsl(246): use of potentially uninitialized variable (UnifiedRT::RayQuery::Proceed)
+ ok=1 outsize=311590
+
+Cmd: compileComputeKernel
+  insize=1635 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/Eviction.compute kernel=Evict ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=7264
+
+Cmd: compileComputeKernel
+  insize=6333 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ComputeHelpers.compute kernel=CopyTextureAdditive ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4096
+
+Cmd: compileComputeKernel
+  insize=6333 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ComputeHelpers.compute kernel=SelectGraphicsBuffer ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4010
+
+Cmd: compileComputeKernel
+  insize=6333 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ComputeHelpers.compute kernel=NormalizeByAlpha ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2640
+
+Cmd: compileComputeKernel
+  insize=6333 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ComputeHelpers.compute kernel=GetValue ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4089
+
+Cmd: compileComputeKernel
+  insize=6333 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ComputeHelpers.compute kernel=StandardErrorThreshold ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4035
+
+Cmd: compileComputeKernel
+  insize=6333 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ComputeHelpers.compute kernel=StandardError ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3584
+
+Cmd: compileComputeKernel
+  insize=6333 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ComputeHelpers.compute kernel=ReferenceBoxFilterBlueChannel ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5635
+
+Cmd: compileComputeKernel
+  insize=6333 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ComputeHelpers.compute kernel=ReferenceBoxFilter ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5164
+
+Cmd: compileComputeKernel
+  insize=6333 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ComputeHelpers.compute kernel=SetChannel ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4446
+
+Cmd: compileComputeKernel
+  insize=6333 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ComputeHelpers.compute kernel=BroadcastChannel ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3386
+
+Cmd: compileComputeKernel
+  insize=6333 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ComputeHelpers.compute kernel=Multiply ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2558
+
+Cmd: compileComputeKernel
+  insize=459 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/RestirCandidateTemporal.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=459 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/RestirCandidateTemporal.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/Lighting/SurfaceCache/RestirCandidateTemporal.hlsl(145): use of potentially uninitialized variable (reservoir)
+ ok=1 outsize=238626
+
+Cmd: compileComputeKernel
+  insize=5928 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LiveGI.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4734
+
+Cmd: compileComputeKernel
+  insize=5928 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LiveGI.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at LiveGI.urtshader(152): use of potentially uninitialized variable (GetHeatmapColor)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(260): use of potentially uninitialized variable (SampleRectangularLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(329): use of potentially uninitialized variable (SampleDiscLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(413): use of potentially uninitialized variable (SampleEmissiveMesh)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(475): use of potentially uninitialized variable (SampleEnvironmentLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(593): use of potentially uninitialized variable (SampleFalloff)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(632): use of potentially uninitialized variable (GetPunctualAttenuation)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(708): use of potentially uninitialized variable (GetRectangularLightEmission)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(817): use of potentially uninitialized variable (EmissiveMISWeightForLightRay)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(886): use of potentially uninitialized variable (GetNumLights)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(897): use of potentially uninitialized variable (SampleLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(985): use of potentially uninitialized variable (SampleLightsRadianceRIS)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/PathTracing.hlsl(38): use of potentially uninitialized variable (ScatterDiffusely)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/PathTracing.hlsl(290): use of potentially uninitialized variable (Scatter)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/UnifiedRayTracing/Compute/RayQuerySoftware.hlsl(246): use of potentially uninitialized variable (UnifiedRT::RayQuery::Proceed)
+ ok=1 outsize=324840
+
+Cmd: compileComputeKernel
+  insize=1897 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/RestirEstimation.compute kernel=Estimate ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=22043
+
+Cmd: compileComputeKernel
+  insize=2940 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapValidityIntegration.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=2940 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapValidityIntegration.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightmapIntegrationHelpers.hlsl(23): use of potentially uninitialized variable (GetExpandedSample)
+ ok=1 outsize=103426
+
+Cmd: compileComputeKernel
+  insize=6466 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapDirectIntegration.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=6466 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapDirectIntegration.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(260): use of potentially uninitialized variable (SampleRectangularLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(329): use of potentially uninitialized variable (SampleDiscLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(413): use of potentially uninitialized variable (SampleEmissiveMesh)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(475): use of potentially uninitialized variable (SampleEnvironmentLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(593): use of potentially uninitialized variable (SampleFalloff)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(632): use of potentially uninitialized variable (GetPunctualAttenuation)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(708): use of potentially uninitialized variable (GetRectangularLightEmission)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(817): use of potentially uninitialized variable (EmissiveMISWeightForLightRay)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(886): use of potentially uninitialized variable (GetNumLights)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(897): use of potentially uninitialized variable (SampleLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(985): use of potentially uninitialized variable (SampleLightsRadianceRIS)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightmapIntegrationHelpers.hlsl(23): use of potentially uninitialized variable (GetExpandedSample)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/UnifiedRayTracing/Compute/RayQuerySoftware.hlsl(246): use of potentially uninitialized variable (UnifiedRT::RayQuery::Proceed)
+ ok=1 outsize=314663
+
+Cmd: compileComputeKernel
+  insize=6444 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbePostProcessing.compute kernel=WindowSphericalHarmonicsL2 ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5047
+
+Cmd: compileComputeKernel
+  insize=6444 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbePostProcessing.compute kernel=ScaleSphericalHarmonicsL2 ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3725
+
+Cmd: compileComputeKernel
+  insize=6444 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbePostProcessing.compute kernel=AddSphericalHarmonicsL2 ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4314
+
+Cmd: compileComputeKernel
+  insize=6444 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbePostProcessing.compute kernel=ConvertToUnityFormat ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=6841
+
+Cmd: compileComputeKernel
+  insize=6444 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbePostProcessing.compute kernel=ConvolveRadianceToIrradiance ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5129
+
+Cmd: compileComputeKernel
+  insize=4619 file=Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/Defrag.compute kernel=Defrag ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SUB_GROUP_SIZE_8 SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=26814
+
+Cmd: compileComputeKernel
+  insize=744 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapOccupancy.compute kernel=BlitOccupancy ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3838
+
+Cmd: compileComputeKernel
+  insize=3713 file=Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature/FlatNormalResolution.compute kernel=ResolveFlatNormals ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=12075
+
+Cmd: compileComputeKernel
+  insize=3626 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/SegmentedReduction.compute kernel=SegmentedReductionFloat ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=8117
+
+Cmd: compileComputeKernel
+  insize=2774 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationOcclusion.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=2774 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationOcclusion.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(260): use of potentially uninitialized variable (SampleRectangularLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(329): use of potentially uninitialized variable (SampleDiscLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(413): use of potentially uninitialized variable (SampleEmissiveMesh)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(475): use of potentially uninitialized variable (SampleEnvironmentLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(593): use of potentially uninitialized variable (SampleFalloff)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(632): use of potentially uninitialized variable (GetPunctualAttenuation)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(1101): use of potentially uninitialized variable (IsLightVisibleFromPoint)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/UnifiedRayTracing/Compute/RayQuerySoftware.hlsl(246): use of potentially uninitialized variable (UnifiedRT::RayQuery::Proceed)
+ ok=1 outsize=142241
+
+Cmd: compileComputeKernel
+  insize=2570 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationValidity.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=2570 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationValidity.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=49887
+
+Cmd: compileComputeKernel
+  insize=4317 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ExpansionHelpers.compute kernel=ClearFloat4Buffer ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2224
+
+Cmd: compileComputeKernel
+  insize=4317 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ExpansionHelpers.compute kernel=BinaryGroupSumLeft ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4108
+
+Cmd: compileComputeKernel
+  insize=4317 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ExpansionHelpers.compute kernel=AdditivelyCopyCompactedTo2D ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=5565
+
+Cmd: compileComputeKernel
+  insize=4317 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ExpansionHelpers.compute kernel=PopulateReduceDispatch ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3109
+
+Cmd: compileComputeKernel
+  insize=4317 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ExpansionHelpers.compute kernel=PopulateCopyDispatch ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2935
+
+Cmd: compileComputeKernel
+  insize=4317 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ExpansionHelpers.compute kernel=PopulateClearDispatch ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=3107
+
+Cmd: compileComputeKernel
+  insize=4317 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ExpansionHelpers.compute kernel=PopulateAccumulationDispatch ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2703
+
+Cmd: compileComputeKernel
+  insize=4317 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ExpansionHelpers.compute kernel=CompactGBuffer ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4347
+
+Cmd: compileComputeKernel
+  insize=876 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapGBufferDebug.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=876 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapGBufferDebug.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightmapIntegrationHelpers.hlsl(50): use of potentially uninitialized variable (GetExpandedSample)
+ ok=1 outsize=10242
+
+Cmd: compileComputeKernel
+  insize=841 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeOcclusionLightIndexMapping.compute kernel=MapIndices ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4248
+
+Cmd: compileComputeKernel
+  insize=1720 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRaysAndFetchAttributes.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4734
+
+Cmd: compileComputeKernel
+  insize=1720 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRaysAndFetchAttributes.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=64359
+
+Cmd: compileComputeKernel
+  insize=1720 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRaysAndFetchAttributes.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2337
+
+Cmd: compileComputeKernel
+  insize=1720 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRaysAndFetchAttributes.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=39474
+
+Cmd: compileComputeKernel
+  insize=619 file=Packages/com.unity.render-pipelines.core/Tests/Editor/CopyDepthToBuffer.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2376
+
+Cmd: compileComputeKernel
+  insize=619 file=Packages/com.unity.render-pipelines.core/Tests/Editor/CopyDepthToBuffer.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=1349
+
+Cmd: compileComputeKernel
+  insize=1836 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceTransparentRays.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4734
+
+Cmd: compileComputeKernel
+  insize=1836 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceTransparentRays.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/UnifiedRayTracing/Compute/RayQuerySoftware.hlsl(245): use of potentially uninitialized variable (UnifiedRT::RayQuery::Proceed)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/UnifiedRayTracing/Compute/RayQuerySoftware.hlsl(246): use of potentially uninitialized variable (UnifiedRT::RayQuery::Proceed)
+ ok=1 outsize=49750
+
+Cmd: compileComputeKernel
+  insize=1836 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceTransparentRays.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=2337
+
+Cmd: compileComputeKernel
+  insize=1836 file=Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceTransparentRays.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=35431
+
+Cmd: compileComputeKernel
+  insize=2816 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapShadowMaskIntegration.urtshader kernel=ComputeIndirectDispatchDims ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=4766
+
+Cmd: compileComputeKernel
+  insize=2816 file=Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapShadowMaskIntegration.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=60040000> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(260): use of potentially uninitialized variable (SampleRectangularLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(329): use of potentially uninitialized variable (SampleDiscLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(413): use of potentially uninitialized variable (SampleEmissiveMesh)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(475): use of potentially uninitialized variable (SampleEnvironmentLight)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(593): use of potentially uninitialized variable (SampleFalloff)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(632): use of potentially uninitialized variable (GetPunctualAttenuation)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightSampling.hlsl(1101): use of potentially uninitialized variable (IsLightVisibleFromPoint)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/PathTracing/Shaders/LightmapIntegrationHelpers.hlsl(23): use of potentially uninitialized variable (GetExpandedSample)
+  error: 1 plat 18 at project/Library/PackageCache/com.unity.render-pipelines.core@6a60abc179f8/Runtime/UnifiedRayTracing/Compute/RayQuerySoftware.hlsl(246): use of potentially uninitialized variable (UnifiedRT::RayQuery::Proceed)
+ ok=1 outsize=179122
+
+Cmd: shutdown

@@ -23,4 +23,18 @@ public class GerenciadorMenu : MonoBehaviour
             painelTermoDeUso.SetActive(false); // Esconde o painel
         }
     }
+
+    // --- NOVA FUNÇÃO PARA SAIR DO APLICATIVO ---
+    public void FecharAplicativo()
+    {
+        Debug.Log("Fechando o aplicativo...");
+
+        // Fecha o aplicativo no Android ou iOS real
+        Application.Quit();
+
+        #if UNITY_EDITOR
+        // Se estiver rodando dentro do editor da Unity, para a execução do Playmode
+        UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+    }
 }
