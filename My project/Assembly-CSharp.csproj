@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GerenciadorPerguntas.cs" />
+    <Compile Include="Assets\Scripts\AreaSegura.cs" />
     <Compile Include="Assets\Scripts\Perguntas.cs" />
     <Compile Include="Assets\Scripts\Questionarios.cs" />
     <Compile Include="Assets\Scripts\GerenciadorMenu.cs" />
