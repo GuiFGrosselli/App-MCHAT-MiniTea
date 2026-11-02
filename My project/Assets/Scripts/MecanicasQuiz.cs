@@ -14,6 +14,10 @@ public class MecanicasQuiz : MonoBehaviour
     public TextMeshProUGUI txtPontosFinal;    // Texto da pontuação final
     public Button btnIniciarSeguimento;      // Botão que ativa a Fase 2 (Apenas M-CHAT com 3+ pontos)
 
+    [Header("UI – Mascote (opcional)")]
+    public GameObject mascoteFinal;          // Mascote + balão da tela final comum ("Obrigado por responder!")
+    public GameObject mascoteSeguimento;     // Mascote + balão do convite à passa-falha
+
     [Header("Configurações do Timer")]
     public float tempoMaximo = 15f;          // Segundos para responder
 
@@ -133,6 +137,10 @@ public class MecanicasQuiz : MonoBehaviour
         timerAtivo = false;
         painelFim.SetActive(true);
 
+        // Por padrão mostra o mascote da tela final comum; o do convite só liga mais abaixo
+        if (mascoteFinal != null) mascoteFinal.SetActive(true);
+        if (mascoteSeguimento != null) mascoteSeguimento.SetActive(false);
+
         // TESTE DE CONSOLE:
     if (btnIniciarSeguimento != null) 
     {
@@ -172,7 +180,11 @@ public class MecanicasQuiz : MonoBehaviour
                         
                         // LIGA O BOTÃO: Único lugar em todo o código onde o botão tem permissão de aparecer
                         if (btnIniciarSeguimento != null) 
-                            btnIniciarSeguimento.gameObject.SetActive(true); 
+                            btnIniciarSeguimento.gameObject.SetActive(true);
+
+                        // Troca o mascote: sai o "obrigado", entra o convite à passa-falha
+                        if (mascoteFinal != null) mascoteFinal.SetActive(false);
+                        if (mascoteSeguimento != null) mascoteSeguimento.SetActive(true);
                     }
                     else
                     {
