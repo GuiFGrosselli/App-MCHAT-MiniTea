@@ -34,9 +34,9 @@ MonoBehaviour:
     - "N\xC3O"
     respostaCorreta: 0
     respostaAlerta: 0
-  - enunciado: ". A sua crian\xE7a brinca de faz de contas? (POR EXEMPLO, faz de
-      conta que bebe em um copo vazio, faz de conta que fala ao telefone, faz de
-      conta que d\xE1 comida a uma boneca ou a um bichinho de pel\xFAcia?) "
+  - enunciado: "A sua crian\xE7a brinca de faz de contas? (POR EXEMPLO, faz de conta
+      que bebe em um copo vazio, faz de conta que fala ao telefone, faz de conta
+      que d\xE1 comida a uma boneca ou a um bichinho de pel\xFAcia?) "
     imagemPergunta: {fileID: -8466779966103268678, guid: 6ffd1b84b9223f9498904301e0cbc8e6, type: 3}
     alternativas:
     - SIM
